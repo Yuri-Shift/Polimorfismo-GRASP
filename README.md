@@ -136,22 +136,6 @@ GRASP-Polymorphism/
 └── README.md
 ```
 
-## Como Compilar e Executar
-
-### Compilar
-
-```bash
-# A partir do diretório raiz do projeto
-javac -encoding UTF-8 -d bin src/*.java
-```
-
-### Executar
-
-```bash
-# A partir do diretório raiz do projeto
-java -cp bin Main
-```
-
 ## Conceitos Relacionados
 
 - **Polimorfismo de Subtipo**: Subclasses podem ser usadas onde o tipo de interface é esperado
@@ -159,15 +143,6 @@ java -cp bin Main
 - **Princípio Aberto/Fechado (OCP)**: Aberto para extensão, fechado para modificação
 - **Inversão de Dependência (DIP)**: Classes de alto nível dependem de abstrações
 - **Princípio da Responsabilidade Única (SRP)**: Cada classe tem uma razão para mudar
-
-## Aplicações Práticas
-
-1. **Processamento de Pagamentos**: Múltiplos gateways (Stripe, PayPal, Square)
-2. **Formatos de Arquivo**: Leitores/escritores (PDF, XML, JSON)
-3. **Bancos de Dados**: Diferentes drivers (MySQL, PostgreSQL, MongoDB)
-4. **Sistemas de Autenticação**: OAuth, JWT, SAML
-5. **Transporte**: HTTP, HTTPS, WebSocket
-6. **Notificações**: Email, SMS, Push Notifications
 
 ## Conclusão
 
